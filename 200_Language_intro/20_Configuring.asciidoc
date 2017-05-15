@@ -52,6 +52,6 @@ The World Health Organization does not sell organs.
 --------------------------------------------------
 <1> 防止 `organization` 和 `organizations` 被缩减为词干
 <2> 指定一个自定义停用词列表
-<3> 切词为 `world` 、 `health` 、 `organization` 、 `does` 、 `not` 、 `sell` 、 `organ`
+<3> 切词为 `world` 、 `health` 、 `organization` 、 `does` 、 `not` 、 `sell` 、 `organ`.(实际测试中'does'被切成'doe',合理吗?)
 
 我们在 <<stemming>> 和 <<stopwords>> 中分别详细讨论了词干提取和停用词。
